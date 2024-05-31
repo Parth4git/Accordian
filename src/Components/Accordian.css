@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+.accordian{
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #eb5858;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+ .item{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+ }
+
+ .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1rem;
+ }
+
+ .icon{
+    font-size: 1.5rem;
+ }
