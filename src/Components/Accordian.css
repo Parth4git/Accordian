@@ -1,4 +1,4 @@
-
+/* 
 *{
     margin: 0;
     padding: 0;
@@ -35,4 +35,101 @@ h1{
 
  .icon{
     font-size: 1.5rem;
+ }
+
+ .btn{
+    display: block;
+    margin-top: 50px;
+    margin-left: 670px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 0;
+ } */
+
+
+ /* Accordian.css */
+
+ /* Basic styling */
+ body {
+     font-family: Arial, sans-serif;
+ }
+
+ h1 {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .btn {
+     display: block;
+     margin: 10px auto;
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ .btn:hover {
+     background-color: #0056b3;
+ }
+
+ .accordian {
+     width: 90%;
+     max-width: 800px;
+     margin: 0 auto;
+ }
+
+ .item {
+     border-bottom: 1px solid #ddd;
+     padding: 10px;
+ }
+
+ .title {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     cursor: pointer;
+ }
+
+ .question {
+     font-size: 1.2em;
+ }
+
+ .icon {
+     font-size: 1.5em;
+     transition: transform 0.3s;
+ }
+
+ .item p {
+     padding: 10px 0;
+     font-size: 1em;
+ }
+
+ /* Responsive styling */
+ @media (max-width: 600px) {
+     .btn {
+         width: 80%;
+         font-size: 0.9em;
+     }
+
+     .accordian {
+         width: 100%;
+     }
+
+     .question {
+         font-size: 1em;
+     }
+
+     .icon {
+         font-size: 1.2em;
+     }
+
+     .item p {
+         font-size: 0.9em;
+     }
  }
